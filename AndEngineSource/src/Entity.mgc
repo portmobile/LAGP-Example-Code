@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="org.anddev.andengine.entity.primitive.Line" x="594" y="208">
+        <AttributesDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="org.anddev.andengine.entity.shape.Shape"/>
+        <Communication destinationClassName="org.anddev.andengine.entity.shape.Shape"/>
+    </Class>
+    <Class name="org.anddev.andengine.entity.shape.Shape" x="395" y="120">
+        <AttributesDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="org.anddev.andengine.entity.shape.IShape"/>
+        <Extension destinationClassName="org.anddev.andengine.entity.Entity"/>
+        <Communication destinationClassName="org.anddev.andengine.entity.shape.IShape"/>
+    </Class>
+    <Class name="org.anddev.andengine.entity.primitive.Rectangle"
+        x="579" y="294">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="org.anddev.andengine.entity.primitive.BaseRectangle"/>
+    </Class>
+    <Class name="org.anddev.andengine.entity.scene.SplashScene" x="141" y="210">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="org.anddev.andengine.entity.scene.Scene"/>
+        <Communication destinationClassName="org.anddev.andengine.entity.Entity"/>
+    </Class>
+    <Class name="org.anddev.andengine.entity.scene.Scene" x="202" y="124">
+        <AttributesDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="org.anddev.andengine.entity.Entity"/>
+        <Communication destinationClassName="org.anddev.andengine.entity.Entity"/>
+    </Class>
+    <Class name="org.anddev.andengine.entity.shape.RectangularShape"
+        x="410" y="195">
+        <AttributesDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="org.anddev.andengine.entity.shape.Shape"/>
+        <Communication destinationClassName="org.anddev.andengine.entity.shape.Shape"/>
+        <Communication destinationClassName="org.anddev.andengine.entity.Entity"/>
+    </Class>
+    <Class name="org.anddev.andengine.entity.layer.Layer" x="516" y="126">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="org.anddev.andengine.entity.Entity"/>
+    </Class>
+    <Class name="org.anddev.andengine.entity.shape.IShape" x="296" y="131">
+        <AttributesDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="org.anddev.andengine.entity.sprite.BaseSprite" x="406" y="338">
+        <AttributesDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="org.anddev.andengine.entity.primitive.BaseRectangle"/>
+        <Communication destinationClassName="org.anddev.andengine.entity.shape.Shape"/>
+    </Class>
+    <Class name="org.anddev.andengine.entity.sprite.AnimatedSprite"
+        x="399" y="466">
+        <AttributesDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="org.anddev.andengine.entity.sprite.TiledSprite"/>
+        <Communication destinationClassName="org.anddev.andengine.entity.sprite.TiledSprite"/>
+    </Class>
+    <Class name="org.anddev.andengine.entity.Entity" x="407" y="48">
+        <AttributesDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="org.anddev.andengine.entity.sprite.Sprite" x="344" y="409">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="org.anddev.andengine.entity.sprite.BaseSprite"/>
+    </Class>
+    <Class name="org.anddev.andengine.entity.scene.CameraScene" x="254" y="207">
+        <AttributesDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="org.anddev.andengine.entity.scene.Scene"/>
+        <Communication destinationClassName="org.anddev.andengine.entity.Entity"/>
+    </Class>
+    <Class name="org.anddev.andengine.entity.primitive.BaseRectangle"
+        x="395" y="268">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="org.anddev.andengine.entity.shape.RectangularShape"/>
+        <Communication destinationClassName="org.anddev.andengine.entity.shape.Shape"/>
+    </Class>
+    <Class name="org.anddev.andengine.entity.sprite.TiledSprite" x="455" y="406">
+        <AttributesDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="org.anddev.andengine.entity.sprite.BaseSprite"/>
+    </Class>
+</ClassDiagram>

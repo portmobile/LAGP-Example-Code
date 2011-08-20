@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="droidsans">DroidSans</string>
+    <string name="droidsansmono">DroidSansMono</string>
+    <string name="droidserif">DroidSerif</string>
+    <string name="app_name">AndroidText</string>
+</resources>

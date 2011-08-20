@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, StartActivity!</string>
+    <string name="app_name">V316</string>
+    <string name="help"> Save the Virgins!
+    Vampires are trying to reach the Virgins in Miss Bs School.
+    You are the only one who can protect them!  Move the weapons (bullet, hatchet and cross) up to the 
+    graveyard where the Vampires are making their way and stop them!
+    </string>
+    <string name="help_dialog_play">Play!</string>
+    <string name="help_dialog_cancel">Cancel</string>
+</resources>

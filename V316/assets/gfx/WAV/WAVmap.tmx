@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="gfx/WAV/WAVTileset.tsx"/>
+ <layer name="Tile Layer 1" width="15" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC5VQQQ4AMAQTG/9/8rKDpBFlO/RAldYWkQ3wVF9o0QtYw6E2zylBd3cV+6ueD54nZG38pMvqoK2yoL6b+fX28mv0xjJMXhhvhDtug+XEWAIAAA==
+  </data>
+ </layer>
+</map>

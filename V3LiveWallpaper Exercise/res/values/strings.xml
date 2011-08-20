@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">V3 Live-Wallpaper</string>
+    <string name="service_name">V3 Live-Wallpaper</string>
+    <string name="service_description">Vampires have invaded your home screen.</string>
+</resources>
